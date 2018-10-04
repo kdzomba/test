@@ -112,7 +112,7 @@ class ApplicationWindow(QtWidgets.QMainWindow):
         self.fileQuit()
 
     def about(self):
-        QtWidgets.QMessageBox.about(self, "About",
+        QtWidgets.QMessageBox.about(self, "About_blabla",
                                     """embedding_in_qt5.py example
 Copyright 2005 Florent Rougon, 2006 Darren Dale, 2015 Jens H Nielsen
 
