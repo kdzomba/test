@@ -107,6 +107,7 @@ class ApplicationWindow(QtWidgets.QMainWindow):
 
     def fileQuit(self):
         self.close()
+        print('Master branch change')
 
     def closeEvent(self, ce):
         self.fileQuit()
