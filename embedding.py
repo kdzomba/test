@@ -105,6 +105,10 @@ class ApplicationWindow(QtWidgets.QMainWindow):
 
         self.statusBar().showMessage("All hail matplotlib!", 2000)
 
+    def newFeatureFunction():
+        print('new feature')
+        print('new feature2')
+
     def fileQuit(self):
         self.close()
         print('Master branch change')
