@@ -108,6 +108,7 @@ class ApplicationWindow(QtWidgets.QMainWindow):
     def newFeatureFunction():
         print('new feature')
         print('new feature2')
+        print('new feature3')
 
     def fileQuit(self):
         self.close()
